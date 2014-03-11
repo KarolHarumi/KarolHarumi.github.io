@@ -1,0 +1,45 @@
+body {
+	background-color: #ebebeb;
+}
+
+#wrapper{
+	width: 100%;
+}
+
+.navbar{
+	height: 50px;
+	background: #28a4b6;
+}
+.navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;  
+}
+.navbar li{
+	float: left;
+}
+.navbar a{
+	min-height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+.navbar a:hover,
+.navbar .selected{
+	text-decoration: none;
+	background-color: #3199a9;
+}
+.container {
+	
+}
+
+.container .project{
+	text-align: center;
+	border:1px solid #28a4b6;
+	padding: 30px 0;
+	/*margin: 1% 1%;*/
+}
+
